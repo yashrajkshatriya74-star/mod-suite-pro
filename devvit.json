@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "mod-suite-pro",
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "🛡️ Mod Suite Pro Dashboard",
+        "description": "Open Mod Suite Pro Dashboard",
+        "location": "post",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/dashboard"
+      },
+      {
+        "label": "🚫 Check Spam",
+        "description": "Manually check this post for spam",
+        "location": "post",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/check-spam"
+      },
+      {
+        "label": "⚠️ Issue Warning",
+        "description": "Issue a warning to post author",
+        "location": "post",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/warn-user"
+      },
+      {
+        "label": "Mop comments",
+        "description": "Remove this comment and all child comments.",
+        "location": "comment",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/mop-comment"
+      }
+    ]
+  },
+  "forms": {
+    "mopComment": "/internal/form/mop-comment-submit",
+    "mopPost": "/internal/form/mop-post-submit"
+  },
+  "triggers": {
+    "onAppInstall": "/internal/triggers/on-app-install",
+    "onPostSubmit": "/internal/triggers/on-post-submit",
+    "onPostReport": "/internal/triggers/on-post-report"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "permissions": {
+    "reddit": true
+  },
+  "dev": {
+    "subreddit": "mod_suite_pro_dev"
+  }
+}
