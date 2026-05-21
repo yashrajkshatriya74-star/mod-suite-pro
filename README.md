@@ -43,9 +43,22 @@ Monitors post content for rule violations:
 | Hate speech keywords found | Post flagged for review |
 | Abusive content | Mod alerted immediately |
 
-**Tracked keywords:** stupid, idiot, hate, kill, racist, abuse, and more
+**Tracked keywords:** **Tracked keywords:** idiot, stupid, moron, dumb, racist, hate you, kill yourself, bitch, fuck you, loser, and more
 
 ---
+
+### 🗑️ Auto Spam Removal
+Spam posts are automatically removed — no mod action needed:
+
+| Action | Trigger |
+|--------|---------|
+| Auto Remove | Spam keywords detected |
+| Auto Remove | ALL CAPS title |
+| Auto Remove | Excessive punctuation |
+| Warning Comment | Inappropriate language |
+
+**Result:** Spam posts disappear instantly — mods never even see them!
+
 
 ### 🏷️ Auto Flair System
 Automatically assigns the correct flair to every post:
