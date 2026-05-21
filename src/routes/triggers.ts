@@ -23,10 +23,14 @@ const SPAM_KEYWORDS = [
 const WARNING_KEYWORDS = [
   'idiot',
   'stupid',
-  'hate',
-  'kill',
+  'moron',
+  'dumb',
   'racist',
-  'abuse',
+  'hate you',
+  'kill yourself',
+  'bitch',
+  'fuck you',
+  'loser',
 ];
 
 // ===== SPAM CHECK =====
