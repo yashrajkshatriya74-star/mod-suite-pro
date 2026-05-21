@@ -196,7 +196,8 @@ src/
 
 ## 👤 Author
 
-**u/Primary-Dirt-6166**
+**Yashraj "shivam" Kshatriya**
+**Reddit:** u/Primary-Dirt-6166
 
 Built with ❤️ for Reddit moderators everywhere
 
