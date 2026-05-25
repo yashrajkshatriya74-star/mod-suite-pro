@@ -1,6 +1,6 @@
 # 🛡️ Mod Suite Pro
 
-> AI-powered automatic moderation tool for Reddit communities
+> Intelligent real-time moderation tool for Reddit communities
 
 Built for the **Reddit Mod Tools Hackathon 2026** by u/Primary-Dirt-6166
 
@@ -28,9 +28,8 @@ Automatically analyzes every new post for spam indicators:
 | ALL CAPS Detection | Flags posts with fully capitalized titles |
 | Spam Keywords | Detects phrases like "click here", "free money", "win prize", "buy now", "casino", "crypto investment" |
 | Excessive Punctuation | Flags titles with 3+ exclamation marks |
-| Suspicious Links | Detects posts with too many URLs |
 
-**Result:** Spam posts are instantly flagged before mods even see them!
+**Result:** Spam posts are instantly detected and moderated in real time!
 
 ---
 
@@ -39,11 +38,10 @@ Monitors post content for rule violations:
 
 | Trigger | Action |
 |---------|--------|
-| Inappropriate language detected | Warning issued automatically |
+| Inappropriate language detected | Warning comment posted automatically |
 | Hate speech keywords found | Post flagged for review |
-| Abusive content | Mod alerted immediately |
 
-**Tracked keywords:** **Tracked keywords:** idiot, stupid, moron, dumb, racist, hate you, kill yourself, bitch, fuck you, loser, and more
+**Tracked keywords:** idiot, stupid, moron, dumb, racist, hate you, kill yourself, bitch, fuck you, loser, and more
 
 ---
 
@@ -59,6 +57,7 @@ Spam posts are automatically removed — no mod action needed:
 
 **Result:** Spam posts disappear instantly — mods never even see them!
 
+---
 
 ### 🏷️ Auto Flair System
 Automatically assigns the correct flair to every post:
@@ -84,25 +83,8 @@ Every post gets a real-time health score from 0-100:
 | 100/100 | ✅ Perfect — Clean post, properly categorized |
 | 70/100 | 🟡 Warning — Inappropriate language detected |
 | 50/100 | 🔴 Spam — Spam indicators found |
-| 20/100 | 🔴 Critical — Multiple violations |
 
 **Mods can quickly prioritize** which posts need immediate attention!
-
----
-
-### 🔍 Manual Spam Check
-Moderators can manually trigger spam analysis on any post:
-- Right-click any post → **"🚫 Check Spam"**
-- Instant analysis report in logs
-- Post ID and author tracked
-
----
-
-### ⚠️ Manual Warning Tool
-Issue warnings directly from post context menu:
-- Right-click any post → **"⚠️ Issue Warning"**
-- Custom warning reason
-- Author automatically notified
 
 ---
 
@@ -127,7 +109,6 @@ Mod Suite Pro Analyzes
 ├───────────────────────────────┤
 │  4. Health Score              │
 │     → 0-100 score calculated  │
-│     → Mod alerted if needed   │
 └───────────────────────────────┘
 ↓
 Result logged for moderator review
@@ -196,7 +177,7 @@ src/
 
 ## 👤 Author
 
-**Yashraj "shivam" Kshatriya**
+**Yashraj Kshatriya**
 **Reddit:** u/Primary-Dirt-6166
 
 Built with ❤️ for Reddit moderators everywhere
